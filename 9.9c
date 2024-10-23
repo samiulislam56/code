@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter the base:");
+    scanf("%d",&x);
+    int y;
+    printf("Enter the power:");
+    scanf("%d",&y);
+
+    int r=1;
+    for(int i=1;i<=y;i++){
+        r = r*x;
+    }
+    printf("The value is %d", r);
+
+    }
