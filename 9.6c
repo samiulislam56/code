@@ -16,7 +16,7 @@ int main()
     {
         rem = n%16;
         hexa = hexa + rem * pow;
-        n = n/8;
+        n = n/16;
         pow= pow * 10;
     }
     printf("Hexa equivalent is %x", hexa);
